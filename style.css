@@ -97,7 +97,7 @@ header .logo{
   color:#666;
 }
 
-header .logo i{
+header .logo .icon{
   padding-right: .5rem;
   color:var(--red);
 }
@@ -468,17 +468,17 @@ header .navbar a:hover{
   position: fixed;
   top:-120%;
   right:2rem;
-  padding:.5rem 1.5rem;
-  font-size: 4rem;
+  padding:.5rem 1rem;
+  font-size: 3rem;
   background:var(--red);
   color:#fff;
-  border-radius: .5rem;
+  border-radius: 2rem;
   transition: 1s linear;
   z-index: 1000;
 }
 
 #scroll-top.active{
-  top:calc(100% - 12rem)
+  top:calc(100% - 12rem);
 }
 
 .loader-container{
